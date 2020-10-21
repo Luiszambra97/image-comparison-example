@@ -1,0 +1,40 @@
+{
+  "name": "image-comparison-example",
+  "version": "1.0.0",
+  "description": "A simple image comparison example using WebdriverIO service",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luiszambra97/image-comparison-example.git"
+  },
+  "keywords": [
+    "testing",
+    "webdriverio",
+    "automation",
+    "visual",
+    "regression"
+  ],
+  "author": "Luis Zambra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luiszambra97/image-comparison-example/issues"
+  },
+  "homepage": "https://github.com/Luiszambra97/image-comparison-example#readme",
+  "devDependencies": {
+    "@wdio/local-runner": "^6.6.7",
+    "@wdio/mocha-framework": "^6.6.7",
+    "@wdio/selenium-standalone-service": "^6.6.5",
+    "@wdio/spec-reporter": "^6.6.8",
+    "@wdio/sync": "^6.6.7",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "wdio-image-comparison-service": "^1.13.6",
+    "webdriverio": "^6.6.7"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.6.7"
+  }
+}
